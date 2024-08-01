@@ -6,8 +6,6 @@ sudo apt-get update
 # Install python3-pip
 sudo apt-get install -y python3-pip
 
-# Clone the repository
-git clone https://github.com/Kitbodee4/boxxer.git
 
 # Navigate to the project directory
 cd boxxer || { echo "Directory 'boxxer' not found"; exit 1; }
