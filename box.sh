@@ -6,10 +6,6 @@ sudo apt-get update
 # Install python3-pip
 sudo apt-get install -y python3-pip
 
-
-# Navigate to the project directory
-cd boxxer || { echo "Directory 'boxxer' not found"; exit 1; }
-
 # Install required Python packages
 pip install -r requirements.txt
 
