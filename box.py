@@ -122,7 +122,7 @@ def execute_bot(token, amount, is_scheduled=False, token_id=None):
 
 def threaded_bot_execution(token, amount, token_id):
     execute_bot(token, amount, True, token_id)
-    schedule.every().day.at("00:00").do(execute_bot, token, amount, True, token_id)
+    schedule.every().day.at("08:00").do(execute_bot, token, amount, True, token_id)
 
 # Main Function
 
